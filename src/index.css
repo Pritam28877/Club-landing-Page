@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+:root{
+    --primary-dark:#000000;
+    --primary-litedark:#212529;
+    --text-primary:#FFFFFF;
+    --card-first:#dc3545;
+    --card-second:#6C1EFD;
+
+}
+body{
+    background-color: var(--primary-dark);
+}
+@layer base{
+    
+    html{
+        @apply scroll-smooth
+    }
+    .li{
+        @apply p-4 text-sm
+    }
+
+    .button{
+        @apply px-4 py-2 border bg-gradient-to-r from-[var(--card-first)] to-[var(--card-second)] text-white;
+    }
+   .h2{
+        @apply text-xl font-bold;
+    }
+}
