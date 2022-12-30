@@ -11,6 +11,10 @@
     --card-second:#6C1EFD;
 
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: var(--primary-dark);
 }
