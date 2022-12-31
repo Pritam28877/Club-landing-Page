@@ -16,7 +16,7 @@
     padding: 0;
 }
 body{
-    /* background-color: var(--primary-dark); */
+    background-color: var(--primary-dark);
 }
 @layer base{
     
