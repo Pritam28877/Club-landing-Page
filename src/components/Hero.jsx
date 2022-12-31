@@ -8,9 +8,9 @@ function Hero() {
       <img class="w-full h-full object-cover" src={Brg} alt="BackgroundImg" />
       <div className="max-w-[1140px] m-auto text-white">
         <div className="absolute top-[40%]">
-          <h2 className="font-Rubik text-5xl">Be Part of an <span class='text-[#A6F114]'>Extraordinary</span></h2>
-          <h2 className="text-[#A6F114] font-Rubik text-5xl">Gala Event</h2>
-          <p>
+          <h2 className="font-Rubik text-5xl italic">Be Part of an <span class='text-[#A6F114]'>Extraordinary</span></h2>
+          <h2 className="text-[#A6F114] font-Rubik text-5xl mt-3">Gala Event</h2>
+          <p className="mt-6">
             Apparently we had reacherd a great height in the atmoshere.for the<br />
             sky was a dead,back and the start had the crased to twinkle.By the<br />
             same illsion whish lifts the horizon of the seee to the level of the<br />
