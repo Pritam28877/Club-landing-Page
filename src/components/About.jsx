@@ -1,4 +1,6 @@
 import React from "react";
+import { CiBullhorn } from "react-icons/ci";
+import { TbHeartRateMonitor } from "react-icons/tb";
 
 function About() {
   return (
@@ -17,7 +19,45 @@ function About() {
         </p>
       </div>
 
-      <div></div>
+      <div class="my-28 flex space-x-36 justify-center mx-28">
+        <div>
+          <div className="my-10">
+          <CiBullhorn color="blue" size={42} spacing="1rem" />
+          </div>
+         
+          <h2 className="text-white text-2xl font-bold">Glittering Shows</h2>
+          <p className="text-white text my-4">
+            Apparently we had reached a great height in <br /> the atmosphere
+            for the sky was a dead black <br /> had ceased to twinkle
+          </p>
+        </div>
+
+
+        <div>
+          <div className="my-10">
+            <TbHeartRateMonitor color="#f82067" size={42} spacing="1rem" />
+          </div>
+
+          <h2 className="text-white text-2xl font-bold">Excited Attendees</h2>
+          <p className="text-white text my-4">
+            Apparently we had reached a great height in <br /> the atmosphere
+            for the sky was a dead black <br /> had ceased to twinkle
+          </p>
+        </div>
+
+
+        <div>
+        <div className="my-10">
+          <CiBullhorn color="blue" size={42} spacing="1rem" />
+          </div>
+         
+          <h2 className="text-white text-2xl font-bold">Gala Dinner</h2>
+          <p className="text-white text my-4">
+            Apparently we had reached a great height in <br /> the atmosphere
+            for the sky was a dead black <br /> had ceased to twinkle
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
