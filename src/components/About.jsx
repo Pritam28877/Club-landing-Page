@@ -5,7 +5,7 @@ import { TbHeartRateMonitor } from "react-icons/tb";
 function About() {
   return (
     <div className="w-full my-32">
-      <div className="font-Rubik max-w-[1240px]  mx-auto w-full text-white   md:ml-auto ">
+      <div className="font-Rubik max-w-[1240px]  mx-auto w-full text-white  md:mx-auto flex flex-col ">
         <h1 class="text-center text-[2.4rem] text-[var(--text-primary)]">
           A Gala That Celebrates{" "}
           <span class="text-[#f82067]">Philanthropy</span>{" "}
@@ -19,9 +19,9 @@ function About() {
         </p>
       </div>
 
-      <div class="my-28 flex space-x-36 justify-center mx-28">
+      <div class="my-28 flex flex-col place-content-stretch  text-center  sm:space-x-0  md:flex-row  justify-center">
         <div>
-          <div className="my-10">
+          <div className="my-10 mx-48">
           <CiBullhorn color="blue" size={42} spacing="1rem" />
           </div>
          
@@ -34,7 +34,7 @@ function About() {
 
 
         <div>
-          <div className="my-10">
+          <div className="my-10 mx-48 place-content-center">
             <TbHeartRateMonitor color="#f82067" size={42} spacing="1rem" />
           </div>
 
@@ -47,7 +47,7 @@ function About() {
 
 
         <div>
-        <div className="my-10">
+        <div className="my-10 mx-48">
           <CiBullhorn color="blue" size={42} spacing="1rem" />
           </div>
          

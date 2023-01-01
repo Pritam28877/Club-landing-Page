@@ -26,8 +26,8 @@ function CountdownTimer() {
   }, []);
 
   return (
-    <div className="w-full h-[110vh]">
-        <div class="mx-60 my-32 bg-[#B41FB4] rounded-xl justify-center flex flex-col">
+    <div className="w-full h-[110vh] min-h-screen">
+        <div class="mx-60 my-32 bg-[#B41FB4] rounded-xl justify-center flex flex-col py-36 overflow-hidden ">
       <div className=" p-4 text-center space-x-20 justify-center  flex ">
         <div class="text-6xl text-[#dc3545]">
           {days} <br /> <span className="text-xl">days</span>
@@ -49,6 +49,9 @@ function CountdownTimer() {
       </div>
       <div>
     
+      </div>
+      <div>
+
       </div>
     </div>
     </div>
